@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        p {
+            text-align: center;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Header Content Here
+    </header>
+    <h1>Weather Information</h1>
+    <p>Description: {{weather.description}}</p>
+    <button onclick="window.location.href='/weather/Zhytomyr'">Check Zhytomyr Weather</button>
+    <button onclick="window.location.href='/weather/Kyiv'">Check Kyiv Weather</button>
+    <button onclick="window.location.href='/weather/Vinnytsia'">Check Vinnytsia Weather</button>
+    <br>
+    <footer>
+        Footer Content Here
+    </footer>
+</body>
+</html>

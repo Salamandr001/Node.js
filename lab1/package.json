@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "loads": "^0.0.4",
+    "lodash": "^4.17.21"
+  }
+}
